@@ -1539,14 +1539,7 @@ async def advantage_spell_chok(msg):
             ],
         )
 
-    btn.insert(0,
-            [
-                InlineKeyboardButton(f'ɪɴғᴏ', 'info'),
-                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movies'),
-                InlineKeyboardButton(f'sᴇʀɪᴇs', 'series')
-            ]
-    )
-
+    
 
 
 async def manual_filters(client, message, text=False):
